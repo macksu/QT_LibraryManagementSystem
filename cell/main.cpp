@@ -7,7 +7,7 @@ int main(int argc, char *argv[])
     QApplication a(argc, argv);
 
     Dlg_login dlg;
-
+     //登录
     int ret = dlg.exec();
 
         if (1==ret){
